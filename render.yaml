@@ -2,9 +2,6 @@ services:
   - type: web
     name: medical-text-cleaner
     env: python
-    plan: free
-    buildCommand: |
-      echo "python-3.10.13" > runtime.txt
-      pip install --upgrade pip
-      pip install -r requirements.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: python app.py
+    pythonVersion: 3.10.13
