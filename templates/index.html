@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Automated Medical Text Cleaner</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        background-color: #dcd6f7;
+        color: #2c2c2c;
+        font-family: 'Segoe UI', sans-serif;
+      }
+      .navbar {
+        background-color: #424874 !important;
+      }
+      .navbar-brand {
+        color: #ffffff !important;
+        font-weight: bold;
+      }
+      .container {
+        max-width: 600px;
+        margin-top: 60px;
+        background: white;
+        border-radius: 14px;
+        padding: 36px;
+        box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+      }
+      .form-label {
+        font-weight: 500;
+      }
+      .btn-primary {
+        background-color: #424874;
+        border: none;
+        font-weight: bold;
+      }
+      .btn-primary:hover {
+        background-color: #30304d;
+      }
+      .alert-danger {
+        background-color: #f8d7da;
+        color: #842029;
+      }
+      footer {
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="https://cdn-icons-png.flaticon.com/512/2838/2838779.png" class="me-2" style="width: 40px;" alt="Logo">
+          Automated Medical Text Cleaner
+        </a>
+      </div>
+    </nav>
+
+    <!-- Upload Form -->
+    <div class="container text-center">
+      <h2 class="mb-4 mt-4">Clean Clinical Notes</h2>
+      <form method="POST" enctype="multipart/form-data">
+        <div class="form-group mb-3 text-start">
+          <label for="file" class="form-label">Upload your healthcare notes (CSV, XLSX, or TXT):</label>
+          <input class="form-control" type="file" name="file" id="file" accept=".csv,.xlsx,.txt" required>
+        </div>
+        <div class="form-group mb-3 text-start">
+          <label for="format" class="form-label">Select Output Format:</label>
+          <select class="form-select" id="format" name="format" required>
+            <option value="csv" selected>CSV (.csv)</option>
+            <option value="excel">Excel (.xlsx)</option>
+            <option value="txt">Text (.txt)</option>
+            <option value="pdf">PDF (.pdf)</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Clean Data</button>
+      </form>
+
+      <!-- Error Message -->
+      {% if error %}
+        <div class="alert alert-danger mt-3">{{ error }}</div>
+      {% endif %}
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-5 text-muted small text-center">
+      &copy; 2025 Automated Medical Text Cleaner
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

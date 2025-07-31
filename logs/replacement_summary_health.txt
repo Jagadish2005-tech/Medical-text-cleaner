@@ -1,0 +1,19 @@
+Replacement Summary for health.csv:
+
+pt -> patient : 4 replacements
+hdache -> headache : 5 replacements
+vomtng -> vomting : 4 replacements
+aftr -> after : 7 replacements
+bp -> blood pressure : 2 replacements
+mrng -> morning : 3 replacements
+tab -> tablet : 7 replacements
+paracetml -> paracetamol : 3 replacements
+prscrbd -> prescribed : 2 replacements
+fevr -> fever : 4 replacements
+sugr -> sugar : 5 replacements
+lvl -> level : 4 replacements
+brkfst -> breakfast : 3 replacements
+chckd -> checked : 2 replacements
+doc -> doctor : 1 replacements
+chckups -> checkups : 1 replacements
+evng -> evening : 1 replacements

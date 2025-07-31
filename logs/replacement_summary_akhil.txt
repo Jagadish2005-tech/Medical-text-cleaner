@@ -1,0 +1,29 @@
+Replacement Summary for akhil.txt:
+
+pt -> patient : 3 replacements
+c/o -> complains of : 1 replacements
+hdache -> headache : 3 replacements
+vomtng -> vomting : 2 replacements
+aftr -> after : 2 replacements
+brkfst -> breakfast : 1 replacements
+bp -> blood pressure : 1 replacements
+prscrbd -> prescribed : 1 replacements
+tab -> tablet : 3 replacements
+paracetml -> paracetamol : 1 replacements
+sugr -> sugar : 3 replacements
+lvl -> level : 1 replacements
+chckd -> checked : 1 replacements
+fevr -> fever : 1 replacements
+ystrdy -> yesterday : 1 replacements
+evng -> evening : 1 replacements
+at -> at bedtime : 1 replacements
+nyt -> night : 1 replacements
+mrng -> morning : 1 replacements
+dolo -> dolo : 1 replacements
+dys -> days : 2 replacements
+hx -> history : 1 replacements
+reg -> regular : 2 replacements
+ctrl -> control : 1 replacements
+doc -> doctor : 1 replacements
+adv -> adivices : 1 replacements
+appt -> appointment : 1 replacements

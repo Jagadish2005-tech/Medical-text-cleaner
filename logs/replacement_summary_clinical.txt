@@ -1,0 +1,21 @@
+Replacement Summary for clinical.csv:
+
+pt -> patient : 5 replacements
+fevr -> fever : 3 replacements
+aftr -> after : 5 replacements
+tab -> tablet : 8 replacements
+paracetml -> paracetamol : 3 replacements
+prscrbd -> prescribed : 1 replacements
+doc -> doctor : 3 replacements
+sugr -> sugar : 4 replacements
+lvl -> level : 5 replacements
+chckd -> checked : 1 replacements
+mrng -> morning : 3 replacements
+brkfst -> breakfast : 4 replacements
+vomtng -> vomting : 4 replacements
+hdache -> headache : 4 replacements
+bp -> blood pressure : 2 replacements
+chckng -> checking : 1 replacements
+at -> at bedtime : 1 replacements
+evng -> evening : 1 replacements
+sug -> sugar : 1 replacements
